@@ -1,0 +1,32 @@
+html{box-sizing:border-box;}
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+	padding:0;
+	margin: 0;
+}
+body{
+	font-family: "Source Sans Pro", Sans-Serif;
+	font-size: 1.2em;
+	line-height: 1.375em;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	-webkit-font-smoothing:antialiased;
+}
+
+
+/*___-_-_-_-_-_-__Flexbox Grid System 2016 __-_-_-_-_-_-____*/
+/*Parent*/
+.row{display:flex;
+flex: flex-wrap;}
+/*Child*/
+.col{flex:1;}
+
+/*col styling*/
+.col{
+	color:#FFF;
+	background-color:hsla(195, 60%, 50%, 1);
+
+}
