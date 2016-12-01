@@ -22,10 +22,14 @@ body{
 .row{display:flex;
 flex: flex-wrap;}
 /*Child*/
-.col{flex:1;}
+.col{
+	flex:1;
+	margin:.6em;
+	padding:2em;}
 
 /*col styling*/
 .col{
+
 	color:#FFF;
 	background-color:hsla(195, 60%, 50%, 1);
 
