@@ -19,18 +19,27 @@ body{
 
 /*___-_-_-_-_-_-__Flexbox Grid System 2016 __-_-_-_-_-_-____*/
 /*Parent*/
-.row{display:flex;
-flex: flex-wrap;}
+.row{
+	display:flex;
+}
 /*Child*/
 .col{
 	flex:1;
 	margin:.6em;
-	padding:2em;}
+	padding:2em;
+}
 
 /*col styling*/
 .col{
-
 	color:#FFF;
 	background-color:hsla(195, 60%, 50%, 1);
+
+}
+
+@media screen and (min-width: 500px){
+	.row{
+		display:flex;
+		flex-direction:row;
+	}
 
 }
