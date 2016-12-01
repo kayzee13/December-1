@@ -21,6 +21,7 @@ body{
 /*Parent*/
 .row{
 	display:flex;
+	flex-direction:column;
 }
 /*Child*/
 .col{
